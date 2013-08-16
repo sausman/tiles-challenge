@@ -24,7 +24,6 @@ group :test do
   gem 'capybara'
   gem 'mongoid-rspec', '>= 1.4.6'
   gem 'timecop'
-  gem 'webmock'
 end
 
 group :test, :development do
@@ -32,7 +31,6 @@ group :test, :development do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails', '>= 2.0.1'
-  gem 'mail_view', '~> 1.0.3'
 end
 
 # Use debugger
