@@ -1,4 +1,4 @@
-code-challenge-tiles
-====================
+Tiles Challenge
+===============
 
 Code challenge for prospective team members.
