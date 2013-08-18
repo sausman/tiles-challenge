@@ -1,26 +1,21 @@
-(WORK IN PROGRESS)
-
-TODO
-1. Add links
-2. Write overview
-3. Getting started explanation
-
 # The Tiles Challenge 
 
-Full stack Rails code challenge for prospective team members.
+Full stack Rails code challenge for prospective Charlie team members.
 
 ## Overview
 
+We want to test out your full-stack development abilities.  Everything from an interactive front-end through a Rails site to Sidekiq background processors and MongoDB.  We want to see a couple Rspec unit tests as well.  We've hooked you up with a fully configured development environment, ready to roll.  We've even built a shell Rails app to start you out.  Just follow the instructions below and you're ready to start coding.
 
 ## Mission Objectives
 
 Here's what we're looking for:
 
-* Display a 3x3 grid of clickable tiles, each of which should contain a unique string (movie characters, colors, bands, etc. Have fun with it!). 
-* There should more possible values than there are tiles per page load (that is, more than 9) and their display should be randomized.
-* Clicking any tile will fire an ajax request that places the click timestamp and tile value on a Sidekiq queue.
-* Once a tile is clicked, the tile becomes disabled until the page is refreshed.
+* Display a 8x8 grid of clickable tiles, each of which contains a unique string (movie characters, colors, bands, etc. Have fun with it!). 
+* Randomize the tiles on load
+* Clicking any tile fires an AJAX request that places the click timestamp and tile value on a Sidekiq queue.
+* When the user clicks on a tile, it dissapears
 * When (if) the last tile is clicked, the tile board is replaced with a list of the 10 most chosen strings along with their click counts.
+* Clicking on one of the tiles errors out and turns red (raise an exception on the action method) 
 * A Sidekiq worker should process jobs asyncronously from the queue and persist them in a mongo database.
 
 
@@ -52,7 +47,10 @@ For convenience we've configured this sample project with everything you need to
 3. Set up your development environment (optionally, use the preconfigured Vagrant VM that we've provided— see below)
 4. Start coding!
 
+
 ### Vagrant Virtual Development Machine
+
+This is the fully configured development environment.  You can code with your favorite text editor and debug in your local browser.  It acts as a web server VM.
 
 1. Install Vagrant: http://downloads.vagrantup.com
 * Install VirtualBox: https://www.virtualbox.org/wiki/Downloads
