@@ -16,7 +16,7 @@ Here's what we're looking for:
 * When the user clicks on a tile, it dissapears
 * When (if) the last tile is clicked, the tile board is replaced with a list of the 10 most chosen strings along with their click counts.
 * Clicking on one of the tiles errors out and turns red (raise an exception on the action method) 
-* A Sidekiq worker should process jobs asyncronously from the queue and persist them in a mongo database.
+* A Sidekiq worker processes jobs asyncronously from the queue then persists the changes to a mongo database.
 
 
 ## Guidelines
@@ -26,6 +26,13 @@ Here's what we're looking for:
 * Either Coffeescript or Javascript are fine.
 * Please use Mongoid as your storage framework.
 * Don't get too caught up on performance and scalability. A clear, well-factored implementation is most important and we only want you to put a few hours into this. Just make comments in the code to indicate anything that you think could be a potential performance problem and hint at how you might handle it.
+
+
+## Submission
+
+* Deploy your app to Heroku and include a link to the instance in your Readme.md
+* Send an email to tech@charliehq.com with a link to your forked repo when you're finished and we'll check it out :)
+
 
 ## Provided stack
 
@@ -83,7 +90,3 @@ When you're done for the day, just run these commands from the shell. Vagrent wi
 
     $ exit
     $ vagrant suspend
-
-## Submission
-
-Just send an email to tech@charliehq.com with a link to your repo when you're finished and we'll check it out :)
