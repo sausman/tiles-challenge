@@ -21,7 +21,8 @@ Here's what we're looking for:
 
 ## Guidelines
 
-* Please provide at least one rspec example. Further test coverage is at your discretion.
+1. Fork this repository
+* Test the basic use-cases of the app with Rspec or your testing framework choice.  You don't need to go full-on TDD, so test as you want.
 * Use either Slim or Haml for you view templates (SASS or SCSS for your styles).
 * Either Coffeescript or Javascript are fine.
 * Please use Mongoid as your storage framework.
@@ -29,9 +30,8 @@ Here's what we're looking for:
 
 
 ## Submission
-
 * Deploy your app to Heroku and include a link to the instance in your Readme.md
-* Send an email to tech@charliehq.com with a link to your forked repo when you're finished and we'll check it out :)
+* Send an email to jobs@charliehq.com with a link to your forked repo when you're finished and we'll check it out
 
 
 ## Provided stack
@@ -55,7 +55,7 @@ For convenience we've configured this sample project with everything you need to
 4. Start coding!
 
 
-### Vagrant Virtual Development Machine
+### Vagrant Virtual Development Machine (optional)
 
 This is the fully configured development environment.  You can code with your favorite text editor and debug in your local browser.  It acts as a web server VM.
 
