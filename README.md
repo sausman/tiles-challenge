@@ -15,7 +15,7 @@ Here's what we're looking for:
 * Clicking any tile fires an AJAX request that places the click timestamp and tile value on a Sidekiq queue.
 * When the user clicks on a tile, it dissapears
 * When (if) the last tile is clicked, the tile board is replaced with a list of the 10 most chosen strings along with their click counts.
-* Clicking on one of the tiles errors out and turns red (raise an exception on the action method) 
+* Handle server-side exceptions by turning that tile red.  Show how you handle exceptions by throwing an exception server-side when you click on one of the tiles (at random).
 * A Sidekiq worker processes jobs asyncronously from the queue then persists the changes to a mongo database.
 
 
