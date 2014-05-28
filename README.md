@@ -31,7 +31,7 @@ Here's what we're looking for:
 
 ## Submission
 * Deploy your app to Heroku and include a link to the instance in your Readme.md
-* Send an email to jobs@charliehq.com with a link to your forked repo when you're finished and we'll check it out
+* Send an email to jobs@charlieapp.com with a link to your forked repo when you're finished and we'll check it out
 
 
 ## Provided stack
