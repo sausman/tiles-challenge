@@ -44,7 +44,7 @@ GEM
     arel (4.0.0)
     atomic (1.1.13)
     awesome_print (1.1.0)
-    bootstrap-sass (2.3.2.1)
+    bootstrap-sass (3.1.1.1)
       sass (~> 3.2)
     bson (1.9.1)
     bson_ext (1.9.1)
@@ -195,7 +195,7 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   bcrypt-ruby!
-  bootstrap-sass (~> 2.3)
+  bootstrap-sass (~> 3.1)
   bson_ext
   capybara
   coffee-rails (~> 4.0.0)

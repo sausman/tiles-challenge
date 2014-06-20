@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
-gem 'bootstrap-sass', '~> 2.3'
+gem 'bootstrap-sass', '~> 3.1'
 gem 'bcrypt-ruby', github: 'codahale/bcrypt-ruby' # Use ActiveModel has_secure_password
 gem 'bson_ext'
 gem 'coffee-rails', '~> 4.0.0'
