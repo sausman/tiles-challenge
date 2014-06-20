@@ -1,5 +1,7 @@
 TilesChallenge::Application.routes.draw do
 
+  root 'tiles#index'
+
   # Sidekiq web interface
   #   acess via localhost:3000/sidekiq
   require 'sidekiq/web'
@@ -49,7 +51,7 @@ TilesChallenge::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
