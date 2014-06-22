@@ -1,0 +1,11 @@
+.tiles
+
+  .tiles-settings
+    input.throw-exception type="checkbox"
+    | &nbsp; Throw Exception
+
+  - for tiles in @tiles.each_slice(8) do
+    .row
+      - for item in tiles
+        .col-md-1.tile
+          = item
