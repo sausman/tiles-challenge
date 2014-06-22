@@ -1,0 +1,4 @@
+ul.most-clicked-titles
+  - for i in @most_clicked_titles
+    li
+      = "#{i[:title]} (#{i[:count]})"
