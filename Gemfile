@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 gem 'bootstrap-sass', '~> 3.1'
-gem 'bcrypt-ruby', github: 'codahale/bcrypt-ruby' # Use ActiveModel has_secure_password
+gem 'bcrypt-ruby'#, github: 'codahale/bcrypt-ruby' # Use ActiveModel has_secure_password
 gem 'bson_ext'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jbuilder', '~> 1.2'
@@ -18,6 +18,7 @@ gem 'slim-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'sidekiq'
 gem 'json'
+gem 'nokogiri'
 
 group :test do
   gem 'database_cleaner'

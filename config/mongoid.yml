@@ -8,8 +8,8 @@ development:
       hosts:
         - localhost:27017
       options:
-        skip_version_check: true
-        safe: true
+        # skip_version_check: true
+        # safe: true
 
         # Change whether the session persists in safe mode by default.
         # (default: false)
@@ -62,7 +62,7 @@ development:
 
     # Ensure all times are UTC in the app side. (default: false)
     # use_utc: false
-    
+
 test:
     # Configure available database sessions. (required)
   sessions:
@@ -72,5 +72,5 @@ test:
       hosts:
         - localhost:27017
       options:
-        skip_version_check: true
-        safe: true
+        # skip_version_check: true
+        # safe: true
