@@ -1,4 +1,4 @@
-class RegisterClickWorker
+class CreateClickWorker
   include Sidekiq::Worker
 
   def perform(title, timestamp)

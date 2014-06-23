@@ -23,7 +23,7 @@ class ClicksController < ApplicationController
       raise Exception, "params[:throw_exception] == 'true'"
     end
 
-    RegisterClickWorker.perform_async click_params[:title], Time.now.utc
+    CreateClickWorker.perform_async click_params[:title], Time.now.utc
     head :created
   end
 

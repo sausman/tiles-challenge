@@ -38,12 +38,12 @@ describe ClicksController, type: :controller do
   end
 
   describe "POST clicks#create" do
-    it "creates a RegisterClickWorker job" do
+    it "creates a CreateClickWorker job" do
       click = FactoryGirl.build(:click)
 
       expect {
         post :create, {click: {title: click.title}}
-      }.to change(RegisterClickWorker.jobs, :size).by(1)
+      }.to change(CreateClickWorker.jobs, :size).by(1)
     end
   end
 end
