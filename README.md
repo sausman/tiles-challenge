@@ -1,4 +1,8 @@
-# The Tiles Challenge 
+# Submission URL
+
+https://murmuring-thicket-7360.herokuapp.com/
+
+# The Tiles Challenge
 
 Full stack Rails code challenge for prospective Charlie team members.
 
@@ -10,7 +14,7 @@ We want to test out your full-stack development abilities.  Everything from an i
 
 Here's what we're looking for:
 
-* Display a 8x8 grid of clickable tiles, each of which contains a unique string (movie characters, colors, bands, etc. Have fun with it!). 
+* Display a 8x8 grid of clickable tiles, each of which contains a unique string (movie characters, colors, bands, etc. Have fun with it!).
 * Randomize the tiles on load
 * Clicking any tile fires an AJAX request that places the click timestamp and tile value on a Sidekiq queue.
 * When the user clicks on a tile, it dissapears
